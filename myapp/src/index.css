@@ -1,0 +1,44 @@
+.App{
+  max-width: 2000px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #000000;
+  box-shadow: 0 2px 6px rgb(121, 24, 24);
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.App .texto{
+  margin-top: 2rem;
+  margin-left: 23rem;
+  font-size: 0.72rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: white;
+}
+.App h1{
+  margin-top: 0.2rem;
+  margin-left: 23rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: white;
+}
+/*--------------------HEADER-----------------*/
+header{
+  width: 100%;
+  min-height: 100px;
+  max-width: 1530px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: fixed;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 5px 10px #00000050;
+  
+}
+header img{
+  margin-left: 43rem;
+}
